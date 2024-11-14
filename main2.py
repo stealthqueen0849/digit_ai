@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
-train_data = pd.read_csv('/Users/disha/Documents/DigitRecognizer/digit-recognizer/train.csv')
+train_data = pd.read_csv('digit-recognizer/train.csv')
 
 X_train_full = train_data.iloc[:, 1:].values  # Pixel data
 y_train_full = train_data.iloc[:, 0].values   # Labels
